@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/authcore",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AuthCore\\": "app/",
+            "Modules\\AuthCore\\Database\\Factories\\": "database/factories/",
+            "Modules\\AuthCore\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\AuthCore\\Tests\\": "tests/"
+        }
+    }
+}

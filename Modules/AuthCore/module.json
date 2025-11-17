@@ -1,0 +1,11 @@
+{
+    "name": "AuthCore",
+    "alias": "authcore",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\AuthCore\\Providers\\AuthCoreServiceProvider"
+    ],
+    "files": []
+}
